@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<package format="3">
+
+  <name>drone_swarm</name>
+
+  <version>0.0.1</version>
+
+  <description>
+    Autonomous multi-UAV swarm coordination using PX4 and ROS 2.
+  </description>
+
+  <maintainer email="karthikeyan@example.com">
+    karthikeyan
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+
+  <depend>px4_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+</package>
